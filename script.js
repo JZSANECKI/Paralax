@@ -6,8 +6,10 @@ window.addEventListener('scroll', function () {
   k1.style.top = wysokosc - value * 0.7 + 'px';
   k2.style.top = value * 2 + 'px';
 
-  k3.style.top = (wysokosc / (value + 1)) * 100 + 25 + 'vh';
+  k3.style.top = (wysokosc / (value + 1)) * 25 + 'vh';
   k4.style.top = (wysokosc / (value + 1)) * 300 - 300 + 'vh';
+  k5.style.left = value * 0.1 + 20 + '%';
+ 
   //console.log(k3.style.top);
   //console.log(value);
   //console.log(wysokosc);

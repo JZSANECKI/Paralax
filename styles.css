@@ -12,9 +12,10 @@ body {
 }
 h1 {
   font-size: 23vw;
+  
 }
 section {
- width:100%;
+  width: 100%;
   height: 200vh;
 }
 .kwadrat {
@@ -22,6 +23,7 @@ section {
 .kontener {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 .kontener2 {
   display: flex;
@@ -36,6 +38,7 @@ section {
   width: 30vw;
   background-color: rgba(171, 140, 182, 255);
   left: 10vw;
+  
 }
 #k2 {
   top: 0;
@@ -46,11 +49,19 @@ section {
 
   left: 60%;
 }
+#k5 {
+  top: 10vh;
+  position: absolute;
+  background-color: rgba(186, 15, 216, 255);
+  height: 70vh;
+  width: 70vw;
+  left: 20%;
+}
 #k3 {
   margin: 0px;
   line-height: 0px;
   top: 150vh;
-  z-index: 2;
+  z-index: 100;
   position: absolute;
 
   left: 25%;
@@ -66,11 +77,14 @@ section {
 
   left: 68%;
 }
-.hidden{
-opacity: 0;
-transition: all 1s;
+.hidden {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(-100%);
 }
-.show{
+.show {
   opacity: 1;
-  transition: all 1s;
+  transition: all 0.5s;
+  
+  transform: translateX(0%);
 }
