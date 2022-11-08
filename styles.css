@@ -54,6 +54,8 @@ section{
   left: 60%;
 }
 #k3{
+  margin:0px;
+  line-height: 0px;
   top: 150vh;
   z-index: 2;
   position: absolute;
