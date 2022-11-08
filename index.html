@@ -15,28 +15,11 @@
  
     <div class="kontener">
     <h1 id="k3">HELLO</h1>
-    <div class="kwadrat" id="k2"></div>
-   <div class="kwadrat" id="k1"></div>
+    <div class="kwadrat" id="k2">k2</div>
+   <div class="kwadrat" id="k1">k1</div>
  
     </div>
-    <div class="kontener" style="background-color:green;"></div>
-   <script>
-let wysokosc = window.innerHeight;
-let szerokosc = window.innerWidth;
-window.addEventListener('scroll', function() {
-let value = window.scrollY;
-console.log(value);
-console.log(wysokosc);
-k1.style.top = wysokosc - value * 0.3  +'px';
-k2.style.top = value * 2 + 'px';
-k3.style.top = wysokosc - value + 'px';
-
-
-
-
-})
-
-
-</script>
+    <div class="kontener2" style="background-color:green;"></div>
+   <script src="script.js"></script>
   </body>
 </html>
