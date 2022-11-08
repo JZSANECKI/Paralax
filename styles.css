@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 
 body {
   margin: 0;
@@ -8,36 +10,47 @@ body {
   color: black;
   background-color: white;
   overflow-x: hidden;
-  
+ 
 }
 h1{
-  font-size: 25vw;
+  font-size: 23vw;
+}
+section{
+  overflow: hidden;
+  height: 200vh;
+  
 }
 .kwadrat{
- position: absolute;
-  height: 200px;
-  width: 200px;
-  background-color: red;
+ 
 }
 .kontener{
   position: relative;
-  min-height: 100vh;
-  overflow-wrap: break-word;
+  height: 100vh;
+ 
+  
   
 }
 .kontener2{
+  background-color:rgba(252,189,73,255);
   position: relative;
   height: 100vh;
   
 }
 #k1{
   top: 100vh;
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  background-color: rgba(171,140,182,255);
 }
 #k2{
-  background-color: blue;
-  scale: 0.7;
+  top: 0;
+  position: absolute;
+  background-color: rgba(186,223,216,255);
+  height: 15vw;
+  width: 15vw;
   
-  left: 250px;
+  left: 60%;
 }
 #k3{
   top: 150vh;
