@@ -3,10 +3,10 @@ let szerokosc = window.innerWidth;
 window.addEventListener('scroll', function () {
   let value = window.scrollY;
 
-  k1.style.top = wysokosc - value * 0.7 + 'px';
+  k1.style.top = wysokosc - value * 1.3 + 'px';
   k2.style.top = value * 2 + 'px';
 
-  k3.style.top = (wysokosc / (value + 1)) * 25 + 'vh';
+  k3.style.top = (wysokosc / (value + 1)) * 40 + 'vh';
   k4.style.top = (wysokosc / (value + 1)) * 300 - 300 + 'vh';
   k5.style.left = value * 0.1 + 20 + '%';
  

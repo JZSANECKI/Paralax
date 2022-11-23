@@ -45,16 +45,17 @@ section {
   position: absolute;
   height: 30vw;
   width: 30vw;
-  background-color: rgba(171, 140, 182, 255);
   left: 10vw;
+  border: black 1vw solid;
   
 }
 #k2 {
   top: 0;
   position: absolute;
   background-color: rgba(186, 223, 216, 255);
-  height: 15vw;
-  width: 15vw;
+  
+  
+  
 
   left: 60%;
 }
